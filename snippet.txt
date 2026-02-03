@@ -1,0 +1,22 @@
+<model-viewer src="Position.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" auto-rotate camera-orbit="-32.37deg 76.97deg 0.9018m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.008777737800453565m 0.3086980632166806m 0.07831157936109036m" data-normal="0.08948429865738262m -2.211538137086202e-16m 0.9959882330097061m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Visor</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.0867055632587618m 0.3408367103930727m -0.0002947316337368125m" data-normal="-0.9999919492858157m 0.004007817881957588m -0.00019687402032387194m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Screen</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.08338463627596251m 0.349988756767622m -0.05198086580780751m" data-normal="0.9999008157037447m 0.012357443428744272m -0.006756652047557004m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Frame</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.012012709998286936m 0.039189308166503956m 0.033920379218683426m" data-normal="0m 1m 2.220446049250313e-16m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Dock</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.08945199686819962m 0.017696693918639705m 0.06000093419675688m" data-normal="-0.6702802461922324m -0.004430736726778738m 0.742094845782221m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Speaker</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
